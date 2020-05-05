@@ -1,8 +1,8 @@
-# MVVM Combine Templates
+# Swift MVVM Combine Templates
 
 ### Simple architecture tempate of **MVVM**, with **Combine** as binding.
 
-Сurrently contains a template with **UIKit**, *View* implemented in code.
+Сurrently contains a template with **UIKit**, View implemented in code.
 
 ### TODO
 

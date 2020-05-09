@@ -16,7 +16,6 @@ final class ___VARIABLE_sceneName___ViewController: UIViewController {
     var viewModel: ___VARIABLE_sceneName___ViewModel
 
     // MARK: Object lifecycle
-
     init() {
         viewModel = ___VARIABLE_sceneName___ViewModel()
         super.init(nibName: nil, bundle: nil)
@@ -27,7 +26,6 @@ final class ___VARIABLE_sceneName___ViewController: UIViewController {
     }
 
     // MARK: View lifecycle
-
     override func loadView() {
         let rootView = ___VARIABLE_sceneName___View()
         self.viewComponents = rootView
@@ -40,7 +38,6 @@ final class ___VARIABLE_sceneName___ViewController: UIViewController {
     }
 
     // MARK: Combine binding
-
     func binding() {
         // Binding ViewComponents to ViewModel
     }

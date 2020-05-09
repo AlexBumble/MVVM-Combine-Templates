@@ -16,7 +16,6 @@ final class ___VARIABLE_sceneName___ViewModel: ObservableObject {
     @Published var anyPublished: String = "anyPublished"
 
     // MARK: Object lifecycle
-
     init() {
         // Setup
     }

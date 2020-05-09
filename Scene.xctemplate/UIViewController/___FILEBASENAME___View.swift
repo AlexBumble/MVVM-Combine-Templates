@@ -17,11 +17,9 @@ protocol ___VARIABLE_sceneName___ViewComponents: class {
 final class ___VARIABLE_sceneName___View: UIView, ___VARIABLE_sceneName___ViewComponents {
 
     // MARK: View Components
-
     var viewComponent: UIView!
 
     // MARK: Object lifecycle
-
     init() {
         super.init(frame: .zero)
         layoutContent(in: self)
@@ -33,7 +31,6 @@ final class ___VARIABLE_sceneName___View: UIView, ___VARIABLE_sceneName___ViewCo
     }
 
     // MARK: Layout
-
     func layoutContent(in view: UIView) {
         viewComponent = UIView()
         view.addSubview(viewComponent)
@@ -41,7 +38,6 @@ final class ___VARIABLE_sceneName___View: UIView, ___VARIABLE_sceneName___ViewCo
     }
 
     // MARK: Style
-
     func applyStyle() {
         // Setup style to view components
     }
